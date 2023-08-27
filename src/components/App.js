@@ -42,7 +42,7 @@ const App = () => {
               <span className="itemPrice">{item.price}</span>
               <button onClick={()=>removeItem(index)}>Remove</button>
             </li>
-          });
+          })
         }
        </div>
     </div>
