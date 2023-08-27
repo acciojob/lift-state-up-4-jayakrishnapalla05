@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   const [itemName,setItemName]=useState("");
   const [price,setprice]=useState('');
-  const [cart,setCart]=useState("");
+  const [cart,setCart]=useState([]);
 
   const addItem=()=>{
     const newItem={
